@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21CD1A5A924ADD769CAF1DF0 /* Pods_HansAMap_HansAMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A30D4E335F70C291F48332 /* Pods_HansAMap_HansAMapUITests.framework */; };
+		2E43DB668CF11AD5D16F5BBF /* Pods_HansAMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3360E8766852DDBA42F867A9 /* Pods_HansAMap.framework */; };
+		3AE496AD2C1C868F004F00DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE496AC2C1C868F004F00DD /* AppDelegate.swift */; };
+		3AE496AF2C1C868F004F00DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE496AE2C1C868F004F00DD /* SceneDelegate.swift */; };
+		3AE496B12C1C868F004F00DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE496B02C1C868F004F00DD /* ViewController.swift */; };
+		3AE496B42C1C868F004F00DD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3AE496B32C1C868F004F00DD /* Base */; };
+		3AE496B62C1C8691004F00DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE496B52C1C8691004F00DD /* Assets.xcassets */; };
+		3AE496B92C1C8691004F00DD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3AE496B82C1C8691004F00DD /* Base */; };
+		3AE496C42C1C8692004F00DD /* HansAMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE496C32C1C8692004F00DD /* HansAMapTests.swift */; };
+		3AE496CE2C1C8692004F00DD /* HansAMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE496CD2C1C8692004F00DD /* HansAMapUITests.swift */; };
+		3AE496D02C1C8692004F00DD /* HansAMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE496CF2C1C8692004F00DD /* HansAMapUITestsLaunchTests.swift */; };
+		CCACDE446EA0265A32393720 /* Pods_HansAMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66435BA8DE52DEAFED370640 /* Pods_HansAMapTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AE496C02C1C8692004F00DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE496A12C1C868F004F00DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE496A82C1C868F004F00DD;
+			remoteInfo = HansAMap;
+		};
+		3AE496CA2C1C8692004F00DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE496A12C1C868F004F00DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE496A82C1C868F004F00DD;
+			remoteInfo = HansAMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154F59AA575981CEE8C23AF3 /* Pods-HansAMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansAMap.debug.xcconfig"; path = "Target Support Files/Pods-HansAMap/Pods-HansAMap.debug.xcconfig"; sourceTree = "<group>"; };
+		3360E8766852DDBA42F867A9 /* Pods_HansAMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansAMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3829F65F4B303D8EA9D21621 /* Pods-HansAMap-HansAMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansAMap-HansAMapUITests.release.xcconfig"; path = "Target Support Files/Pods-HansAMap-HansAMapUITests/Pods-HansAMap-HansAMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AE496A92C1C868F004F00DD /* HansAMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HansAMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE496AC2C1C868F004F00DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AE496AE2C1C868F004F00DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3AE496B02C1C868F004F00DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AE496B32C1C868F004F00DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AE496B52C1C8691004F00DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE496B82C1C8691004F00DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AE496BA2C1C8691004F00DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE496BF2C1C8692004F00DD /* HansAMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansAMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE496C32C1C8692004F00DD /* HansAMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansAMapTests.swift; sourceTree = "<group>"; };
+		3AE496C92C1C8692004F00DD /* HansAMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansAMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE496CD2C1C8692004F00DD /* HansAMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansAMapUITests.swift; sourceTree = "<group>"; };
+		3AE496CF2C1C8692004F00DD /* HansAMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansAMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AE496DD2C1CA0DB004F00DD /* HansAMap-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HansAMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F689B2F03FE205B6BACF35C /* Pods-HansAMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansAMapTests.debug.xcconfig"; path = "Target Support Files/Pods-HansAMapTests/Pods-HansAMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDF60278EEE6F5216466692 /* Pods-HansAMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansAMap.release.xcconfig"; path = "Target Support Files/Pods-HansAMap/Pods-HansAMap.release.xcconfig"; sourceTree = "<group>"; };
+		66435BA8DE52DEAFED370640 /* Pods_HansAMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansAMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81421E3296897A29CAF6296C /* Pods-HansAMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansAMapTests.release.xcconfig"; path = "Target Support Files/Pods-HansAMapTests/Pods-HansAMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4A30D4E335F70C291F48332 /* Pods_HansAMap_HansAMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansAMap_HansAMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DAC4CBC1A2A75309CF8858 /* Pods-HansAMap-HansAMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansAMap-HansAMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-HansAMap-HansAMapUITests/Pods-HansAMap-HansAMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE496A62C1C868F004F00DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E43DB668CF11AD5D16F5BBF /* Pods_HansAMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE496BC2C1C8692004F00DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCACDE446EA0265A32393720 /* Pods_HansAMapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE496C62C1C8692004F00DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CD1A5A924ADD769CAF1DF0 /* Pods_HansAMap_HansAMapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE496A02C1C868F004F00DD = {
+			isa = PBXGroup;
+			children = (
+				3AE496AB2C1C868F004F00DD /* HansAMap */,
+				3AE496C22C1C8692004F00DD /* HansAMapTests */,
+				3AE496CC2C1C8692004F00DD /* HansAMapUITests */,
+				3AE496AA2C1C868F004F00DD /* Products */,
+				B153DB91C9E1463B5CA70909 /* Pods */,
+				7DD43EF00486AF41D8C831ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE496AA2C1C868F004F00DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE496A92C1C868F004F00DD /* HansAMap.app */,
+				3AE496BF2C1C8692004F00DD /* HansAMapTests.xctest */,
+				3AE496C92C1C8692004F00DD /* HansAMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE496AB2C1C868F004F00DD /* HansAMap */ = {
+			isa = PBXGroup;
+			children = (
+				3AE496DD2C1CA0DB004F00DD /* HansAMap-Bridging-Header.h */,
+				3AE496AC2C1C868F004F00DD /* AppDelegate.swift */,
+				3AE496AE2C1C868F004F00DD /* SceneDelegate.swift */,
+				3AE496B02C1C868F004F00DD /* ViewController.swift */,
+				3AE496B22C1C868F004F00DD /* Main.storyboard */,
+				3AE496B52C1C8691004F00DD /* Assets.xcassets */,
+				3AE496B72C1C8691004F00DD /* LaunchScreen.storyboard */,
+				3AE496BA2C1C8691004F00DD /* Info.plist */,
+			);
+			path = HansAMap;
+			sourceTree = "<group>";
+		};
+		3AE496C22C1C8692004F00DD /* HansAMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE496C32C1C8692004F00DD /* HansAMapTests.swift */,
+			);
+			path = HansAMapTests;
+			sourceTree = "<group>";
+		};
+		3AE496CC2C1C8692004F00DD /* HansAMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE496CD2C1C8692004F00DD /* HansAMapUITests.swift */,
+				3AE496CF2C1C8692004F00DD /* HansAMapUITestsLaunchTests.swift */,
+			);
+			path = HansAMapUITests;
+			sourceTree = "<group>";
+		};
+		7DD43EF00486AF41D8C831ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3360E8766852DDBA42F867A9 /* Pods_HansAMap.framework */,
+				A4A30D4E335F70C291F48332 /* Pods_HansAMap_HansAMapUITests.framework */,
+				66435BA8DE52DEAFED370640 /* Pods_HansAMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B153DB91C9E1463B5CA70909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154F59AA575981CEE8C23AF3 /* Pods-HansAMap.debug.xcconfig */,
+				4BDF60278EEE6F5216466692 /* Pods-HansAMap.release.xcconfig */,
+				C1DAC4CBC1A2A75309CF8858 /* Pods-HansAMap-HansAMapUITests.debug.xcconfig */,
+				3829F65F4B303D8EA9D21621 /* Pods-HansAMap-HansAMapUITests.release.xcconfig */,
+				3F689B2F03FE205B6BACF35C /* Pods-HansAMapTests.debug.xcconfig */,
+				81421E3296897A29CAF6296C /* Pods-HansAMapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE496A82C1C868F004F00DD /* HansAMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE496D32C1C8692004F00DD /* Build configuration list for PBXNativeTarget "HansAMap" */;
+			buildPhases = (
+				3ED14C141A933B3466D6126D /* [CP] Check Pods Manifest.lock */,
+				3AE496A52C1C868F004F00DD /* Sources */,
+				3AE496A62C1C868F004F00DD /* Frameworks */,
+				3AE496A72C1C868F004F00DD /* Resources */,
+				8EACCA667E30B4D08FDB7B10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HansAMap;
+			productName = HansAMap;
+			productReference = 3AE496A92C1C868F004F00DD /* HansAMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AE496BE2C1C8692004F00DD /* HansAMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE496D62C1C8692004F00DD /* Build configuration list for PBXNativeTarget "HansAMapTests" */;
+			buildPhases = (
+				DB475ED2F6F3AC5E2CA8E64B /* [CP] Check Pods Manifest.lock */,
+				3AE496BB2C1C8692004F00DD /* Sources */,
+				3AE496BC2C1C8692004F00DD /* Frameworks */,
+				3AE496BD2C1C8692004F00DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE496C12C1C8692004F00DD /* PBXTargetDependency */,
+			);
+			name = HansAMapTests;
+			productName = HansAMapTests;
+			productReference = 3AE496BF2C1C8692004F00DD /* HansAMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AE496C82C1C8692004F00DD /* HansAMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE496D92C1C8692004F00DD /* Build configuration list for PBXNativeTarget "HansAMapUITests" */;
+			buildPhases = (
+				4C579099D22715A33DABF7C9 /* [CP] Check Pods Manifest.lock */,
+				3AE496C52C1C8692004F00DD /* Sources */,
+				3AE496C62C1C8692004F00DD /* Frameworks */,
+				3AE496C72C1C8692004F00DD /* Resources */,
+				FE2F4CD6EF7EA92A1AF9594B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE496CB2C1C8692004F00DD /* PBXTargetDependency */,
+			);
+			name = HansAMapUITests;
+			productName = HansAMapUITests;
+			productReference = 3AE496C92C1C8692004F00DD /* HansAMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE496A12C1C868F004F00DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3AE496A82C1C868F004F00DD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3AE496BE2C1C8692004F00DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3AE496A82C1C868F004F00DD;
+					};
+					3AE496C82C1C8692004F00DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3AE496A82C1C868F004F00DD;
+					};
+				};
+			};
+			buildConfigurationList = 3AE496A42C1C868F004F00DD /* Build configuration list for PBXProject "HansAMap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AE496A02C1C868F004F00DD;
+			productRefGroup = 3AE496AA2C1C868F004F00DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE496A82C1C868F004F00DD /* HansAMap */,
+				3AE496BE2C1C8692004F00DD /* HansAMapTests */,
+				3AE496C82C1C8692004F00DD /* HansAMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE496A72C1C868F004F00DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE496B62C1C8691004F00DD /* Assets.xcassets in Resources */,
+				3AE496B92C1C8691004F00DD /* Base in Resources */,
+				3AE496B42C1C868F004F00DD /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE496BD2C1C8692004F00DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE496C72C1C8692004F00DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ED14C141A933B3466D6126D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansAMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C579099D22715A33DABF7C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansAMap-HansAMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EACCA667E30B4D08FDB7B10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansAMap/Pods-HansAMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansAMap/Pods-HansAMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HansAMap/Pods-HansAMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB475ED2F6F3AC5E2CA8E64B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansAMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2F4CD6EF7EA92A1AF9594B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansAMap-HansAMapUITests/Pods-HansAMap-HansAMapUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansAMap-HansAMapUITests/Pods-HansAMap-HansAMapUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HansAMap-HansAMapUITests/Pods-HansAMap-HansAMapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE496A52C1C868F004F00DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE496B12C1C868F004F00DD /* ViewController.swift in Sources */,
+				3AE496AD2C1C868F004F00DD /* AppDelegate.swift in Sources */,
+				3AE496AF2C1C868F004F00DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE496BB2C1C8692004F00DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE496C42C1C8692004F00DD /* HansAMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE496C52C1C8692004F00DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE496D02C1C8692004F00DD /* HansAMapUITestsLaunchTests.swift in Sources */,
+				3AE496CE2C1C8692004F00DD /* HansAMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AE496C12C1C8692004F00DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE496A82C1C868F004F00DD /* HansAMap */;
+			targetProxy = 3AE496C02C1C8692004F00DD /* PBXContainerItemProxy */;
+		};
+		3AE496CB2C1C8692004F00DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE496A82C1C868F004F00DD /* HansAMap */;
+			targetProxy = 3AE496CA2C1C8692004F00DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AE496B22C1C868F004F00DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE496B32C1C868F004F00DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AE496B72C1C8691004F00DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE496B82C1C8691004F00DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE496D12C1C8692004F00DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HansAMap/HansAMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AE496D22C1C8692004F00DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HansAMap/HansAMap-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE496D42C1C8692004F00DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154F59AA575981CEE8C23AF3 /* Pods-HansAMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z8V2F9Q64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HansAMap/Extern",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HansAMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hans.HansAMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AE496D52C1C8692004F00DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BDF60278EEE6F5216466692 /* Pods-HansAMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z8V2F9Q64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HansAMap/Extern",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HansAMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hans.HansAMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AE496D72C1C8692004F00DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F689B2F03FE205B6BACF35C /* Pods-HansAMapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2L769CBHM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hans.HansAMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HansAMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HansAMap";
+			};
+			name = Debug;
+		};
+		3AE496D82C1C8692004F00DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81421E3296897A29CAF6296C /* Pods-HansAMapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2L769CBHM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hans.HansAMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HansAMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HansAMap";
+			};
+			name = Release;
+		};
+		3AE496DA2C1C8692004F00DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DAC4CBC1A2A75309CF8858 /* Pods-HansAMap-HansAMapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2L769CBHM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hans.HansAMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HansAMap;
+			};
+			name = Debug;
+		};
+		3AE496DB2C1C8692004F00DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3829F65F4B303D8EA9D21621 /* Pods-HansAMap-HansAMapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2L769CBHM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hans.HansAMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HansAMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE496A42C1C868F004F00DD /* Build configuration list for PBXProject "HansAMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE496D12C1C8692004F00DD /* Debug */,
+				3AE496D22C1C8692004F00DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE496D32C1C8692004F00DD /* Build configuration list for PBXNativeTarget "HansAMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE496D42C1C8692004F00DD /* Debug */,
+				3AE496D52C1C8692004F00DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE496D62C1C8692004F00DD /* Build configuration list for PBXNativeTarget "HansAMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE496D72C1C8692004F00DD /* Debug */,
+				3AE496D82C1C8692004F00DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE496D92C1C8692004F00DD /* Build configuration list for PBXNativeTarget "HansAMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE496DA2C1C8692004F00DD /* Debug */,
+				3AE496DB2C1C8692004F00DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AE496A12C1C868F004F00DD /* Project object */;
+}
